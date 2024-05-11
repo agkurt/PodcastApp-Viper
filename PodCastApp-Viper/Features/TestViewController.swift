@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TestViewController.swift
 //  PodCastApp-Viper
 //
 //  Created by Ahmet Göktürk Kurt on 11.05.2024.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TestViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .red
     }
 
-
 }
-

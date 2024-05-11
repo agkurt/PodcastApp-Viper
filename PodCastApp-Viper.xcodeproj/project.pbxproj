@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		E88569D82BEF927000011FA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88569D72BEF927000011FA1 /* AppDelegate.swift */; };
 		E88569DA2BEF927000011FA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88569D92BEF927000011FA1 /* SceneDelegate.swift */; };
-		E88569DC2BEF927000011FA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88569DB2BEF927000011FA1 /* ViewController.swift */; };
-		E88569DF2BEF927000011FA1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E88569DE2BEF927000011FA1 /* Base */; };
 		E88569E12BEF927300011FA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E88569E02BEF927300011FA1 /* Assets.xcassets */; };
 		E88569E42BEF927300011FA1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E88569E32BEF927300011FA1 /* Base */; };
+		E88569F12BEF942C00011FA1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E88569F02BEF942C00011FA1 /* SnapKit */; };
+		E88569F32BEF942C00011FA1 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = E88569F22BEF942C00011FA1 /* SnapKit-Dynamic */; };
+		E88569F82BEF950600011FA1 /* ButtonSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88569F72BEF950600011FA1 /* ButtonSize.swift */; };
+		E88569FA2BEF956C00011FA1 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88569F92BEF956C00011FA1 /* Theme.swift */; };
+		E88569FC2BEF96F700011FA1 /* FontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88569FB2BEF96F700011FA1 /* FontSize.swift */; };
+		E88569FF2BEF997200011FA1 /* UIFont+ Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88569FE2BEF997200011FA1 /* UIFont+ Ext.swift */; };
+		E8856A012BEF9A6300011FA1 /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8856A002BEF9A6300011FA1 /* OnboardViewController.swift */; };
+		E8856A032BEFB08100011FA1 /* Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8856A022BEFB08100011FA1 /* Radius.swift */; };
+		E8856A062BEFB13D00011FA1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8856A052BEFB13D00011FA1 /* OnboardingView.swift */; };
+		E8856A0C2BEFC5CE00011FA1 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8856A0B2BEFC5CE00011FA1 /* TestViewController.swift */; };
+		E8856A0E2BEFEA7C00011FA1 /* OnboardRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8856A0D2BEFEA7C00011FA1 /* OnboardRoute.swift */; };
+		E8856A102BEFEA8400011FA1 /* OnboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8856A0F2BEFEA8400011FA1 /* OnboardPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E88569D42BEF927000011FA1 /* PodCastApp-Viper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PodCastApp-Viper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E88569D72BEF927000011FA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E88569D92BEF927000011FA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E88569DB2BEF927000011FA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E88569DE2BEF927000011FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E88569E02BEF927300011FA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E88569E32BEF927300011FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E88569E52BEF927300011FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E88569F72BEF950600011FA1 /* ButtonSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSize.swift; sourceTree = "<group>"; };
+		E88569F92BEF956C00011FA1 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		E88569FB2BEF96F700011FA1 /* FontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSize.swift; sourceTree = "<group>"; };
+		E88569FE2BEF997200011FA1 /* UIFont+ Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+ Ext.swift"; sourceTree = "<group>"; };
+		E8856A002BEF9A6300011FA1 /* OnboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardViewController.swift; sourceTree = "<group>"; };
+		E8856A022BEFB08100011FA1 /* Radius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radius.swift; sourceTree = "<group>"; };
+		E8856A052BEFB13D00011FA1 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		E8856A0B2BEFC5CE00011FA1 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		E8856A0D2BEFEA7C00011FA1 /* OnboardRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardRoute.swift; sourceTree = "<group>"; };
+		E8856A0F2BEFEA8400011FA1 /* OnboardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E88569F12BEF942C00011FA1 /* SnapKit in Frameworks */,
+				E88569F32BEF942C00011FA1 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +76,95 @@
 		E88569D62BEF927000011FA1 /* PodCastApp-Viper */ = {
 			isa = PBXGroup;
 			children = (
-				E88569D72BEF927000011FA1 /* AppDelegate.swift */,
-				E88569D92BEF927000011FA1 /* SceneDelegate.swift */,
-				E88569DB2BEF927000011FA1 /* ViewController.swift */,
-				E88569DD2BEF927000011FA1 /* Main.storyboard */,
-				E88569E02BEF927300011FA1 /* Assets.xcassets */,
-				E88569E22BEF927300011FA1 /* LaunchScreen.storyboard */,
-				E88569E52BEF927300011FA1 /* Info.plist */,
+				E88569EE2BEF93CE00011FA1 /* Asset */,
+				E88569ED2BEF938B00011FA1 /* Base */,
+				E88569EC2BEF938500011FA1 /* Common */,
+				E88569EB2BEF937E00011FA1 /* Features */,
 			);
 			path = "PodCastApp-Viper";
+			sourceTree = "<group>";
+		};
+		E88569EB2BEF937E00011FA1 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				E8856A0B2BEFC5CE00011FA1 /* TestViewController.swift */,
+				E88569F42BEF94A600011FA1 /* Onboard */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		E88569EC2BEF938500011FA1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E88569FD2BEF995300011FA1 /* Extension */,
+				E88569F62BEF94C500011FA1 /* Size */,
+				E88569F52BEF94C000011FA1 /* Theme */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E88569ED2BEF938B00011FA1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E88569D72BEF927000011FA1 /* AppDelegate.swift */,
+				E88569D92BEF927000011FA1 /* SceneDelegate.swift */,
+				E88569E22BEF927300011FA1 /* LaunchScreen.storyboard */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E88569EE2BEF93CE00011FA1 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				E88569E52BEF927300011FA1 /* Info.plist */,
+				E88569E02BEF927300011FA1 /* Assets.xcassets */,
+			);
+			name = Asset;
+			sourceTree = "<group>";
+		};
+		E88569F42BEF94A600011FA1 /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				E8856A042BEFB13400011FA1 /* View */,
+				E8856A002BEF9A6300011FA1 /* OnboardViewController.swift */,
+				E8856A0D2BEFEA7C00011FA1 /* OnboardRoute.swift */,
+				E8856A0F2BEFEA8400011FA1 /* OnboardPresenter.swift */,
+			);
+			path = Onboard;
+			sourceTree = "<group>";
+		};
+		E88569F52BEF94C000011FA1 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				E88569F92BEF956C00011FA1 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		E88569F62BEF94C500011FA1 /* Size */ = {
+			isa = PBXGroup;
+			children = (
+				E88569F72BEF950600011FA1 /* ButtonSize.swift */,
+				E88569FB2BEF96F700011FA1 /* FontSize.swift */,
+				E8856A022BEFB08100011FA1 /* Radius.swift */,
+			);
+			path = Size;
+			sourceTree = "<group>";
+		};
+		E88569FD2BEF995300011FA1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E88569FE2BEF997200011FA1 /* UIFont+ Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E8856A042BEFB13400011FA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8856A052BEFB13D00011FA1 /* OnboardingView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +183,10 @@
 			dependencies = (
 			);
 			name = "PodCastApp-Viper";
+			packageProductDependencies = (
+				E88569F02BEF942C00011FA1 /* SnapKit */,
+				E88569F22BEF942C00011FA1 /* SnapKit-Dynamic */,
+			);
 			productName = "PodCastApp-Viper";
 			productReference = E88569D42BEF927000011FA1 /* PodCastApp-Viper.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +215,9 @@
 				Base,
 			);
 			mainGroup = E88569CB2BEF927000011FA1;
+			packageReferences = (
+				E88569EF2BEF942C00011FA1 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = E88569D52BEF927000011FA1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +234,6 @@
 			files = (
 				E88569E12BEF927300011FA1 /* Assets.xcassets in Resources */,
 				E88569E42BEF927300011FA1 /* Base in Resources */,
-				E88569DF2BEF927000011FA1 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +244,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E88569DC2BEF927000011FA1 /* ViewController.swift in Sources */,
+				E88569FF2BEF997200011FA1 /* UIFont+ Ext.swift in Sources */,
+				E8856A012BEF9A6300011FA1 /* OnboardViewController.swift in Sources */,
+				E88569FC2BEF96F700011FA1 /* FontSize.swift in Sources */,
+				E8856A062BEFB13D00011FA1 /* OnboardingView.swift in Sources */,
 				E88569D82BEF927000011FA1 /* AppDelegate.swift in Sources */,
+				E88569FA2BEF956C00011FA1 /* Theme.swift in Sources */,
+				E88569F82BEF950600011FA1 /* ButtonSize.swift in Sources */,
 				E88569DA2BEF927000011FA1 /* SceneDelegate.swift in Sources */,
+				E8856A0C2BEFC5CE00011FA1 /* TestViewController.swift in Sources */,
+				E8856A032BEFB08100011FA1 /* Radius.swift in Sources */,
+				E8856A102BEFEA8400011FA1 /* OnboardPresenter.swift in Sources */,
+				E8856A0E2BEFEA7C00011FA1 /* OnboardRoute.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E88569DD2BEF927000011FA1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E88569DE2BEF927000011FA1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E88569E22BEF927300011FA1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +404,6 @@
 				INFOPLIST_FILE = "PodCastApp-Viper/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +431,6 @@
 				INFOPLIST_FILE = "PodCastApp-Viper/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +468,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E88569EF2BEF942C00011FA1 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E88569F02BEF942C00011FA1 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E88569EF2BEF942C00011FA1 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		E88569F22BEF942C00011FA1 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E88569EF2BEF942C00011FA1 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E88569CC2BEF927000011FA1 /* Project object */;
 }
